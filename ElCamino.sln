@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElCamino", "ElCamino\ElCamino.csproj", "{4EAFEFD8-C24A-442D-966C-AB74205D2D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElCamino.Tests", "ElCamino.Tests\ElCamino.Tests.csproj", "{1CAFFF17-64FF-491F-91BA-3F8EF34EABDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EAFEFD8-C24A-442D-966C-AB74205D2D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EAFEFD8-C24A-442D-966C-AB74205D2D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EAFEFD8-C24A-442D-966C-AB74205D2D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EAFEFD8-C24A-442D-966C-AB74205D2D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAFFF17-64FF-491F-91BA-3F8EF34EABDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAFFF17-64FF-491F-91BA-3F8EF34EABDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAFFF17-64FF-491F-91BA-3F8EF34EABDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAFFF17-64FF-491F-91BA-3F8EF34EABDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
