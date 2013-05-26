@@ -10,7 +10,7 @@ namespace ElCamino
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/vendor/jquery-{version}.js"));
-
+            
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/vendor/jquery.unobtrusive*",
                         "~/Scripts/vendor/jquery.validate*"));
@@ -20,6 +20,11 @@ namespace ElCamino
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/vendor/modernizr-*"));
 
+            bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
+                "~/Content/bootstrap/bootstrap.css",
+                "~/Content/bootstrap/bootswatch.css"));
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+                "~/Content/fonts.css", "~/Content/Main.css"));
         }
     }
 }

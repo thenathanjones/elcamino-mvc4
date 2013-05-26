@@ -1,0 +1,22 @@
+.title-row {
+  padding-top: 20px;
+  height: 300px;
+  background: black;
+  background-image: url("/Images/carbonfibre.png"); }
+  .title-row h1 {
+    font-family: 'PricedownRegular';
+    font-weight: normal;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 200px;
+    margin-top: 0;
+    color: white; }
+
+.badges {
+  padding-top: 10px;
+  text-align: center; }
+
+.num-routes {
+  padding-top: 10px;
+  text-align: center; }
+

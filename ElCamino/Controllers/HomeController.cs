@@ -10,9 +10,9 @@ namespace ElCamino.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.NumRoutes = 31;
 
-            return View();
+            return View("Index", "_HomeLayout");
         }
 
         public ActionResult About()
